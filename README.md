@@ -1,7 +1,23 @@
 # rebar plugin for edown #
 
 ### A smile ###
-Notice erlang.mk in the root dir :)
+Notice erlang.mk in the root dir 😁  :)
+
+## How to use ##
+1. Copy the scripts in priv/\*.script into your priv directory
+2. Copy priv/rebar.config.script to the main directory of you app.
+3. use `{@vsn}` in your documentation to substitute  VCS version
+
+Run:
+```sh
+rebar get-deps co edown edoc
+```
+
+and you'll get all the documentation built both in edoc and edown.
+
+Here is a screenshoot showing the version number after building with
+`rebar edoc`.
+[![Sample documentation](https://github.com/erlanger/rebar_edown/raw/master/btune-doc.png)](https://github.com/erlanger/btune/)
 
 ## What you get ##
 
@@ -22,22 +38,6 @@ Notice erlang.mk in the root dir :)
    The edown docs are nice on github, but the erlang docs are great for local
    browsing. Both of them can be built in the same doc directory. Now I just
    run `rebar get-deps co edoc edown` and get the best of both worlds.
-
-## How to use ##
-1. Copy the scripts in priv/\*.script into your priv directory
-2. Copy priv/rebar.config.script to the main directory of you app.
-3. use `{@vsn}` in your documentation to substitute  VCS version
-
-Run:
-```sh
-rebar get-deps co edown edoc
-```
-
-and you'll get all the documentation built both in edoc and edown.
-
-Here is a screenshoot showing the version number after building with
-`rebar edoc`.
-[![Sample documentation](https://github.com/erlanger/rebar_edown/raw/master/btune-doc.png)](https://github.com/erlanger/btune/)
 
 ## Behind the scenes ##
 
