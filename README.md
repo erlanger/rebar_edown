@@ -46,6 +46,7 @@ if you are not going to build the docs. The author of edown had already
 done most of the work, I just built a rebar plugin to make things easier.
 
 Behind the scenes rebar_edown does the following:
+
 1. Automatically add dependencies for edown and rebar_edown *only* if you run
    `rebar doc` or `rebar edown`. So if you don't have the dependencies you just
    run `rebar get-deps co edown` and everything will be added and downloaded
