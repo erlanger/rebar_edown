@@ -36,7 +36,7 @@ case lists:member("edoc", Args) orelse lists:member("edown", Args) of
                 D1 ={rebar_edown, ".*",
                      {git, "git://github.com/erlanger/rebar_edown.git", "HEAD"}},
                 Deps = case lists:keyfind(deps, 1, CFG1) of
-                           false -> [D|D1];
+                           false -> [D,D1];
                            {_, Ds} ->
                                case lists:keymember(edown, 1, Ds) of
                                    true -> Ds;
