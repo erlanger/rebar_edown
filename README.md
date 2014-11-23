@@ -34,6 +34,10 @@ rebar get-deps co edown edoc
 
 and you'll get all the documentation built both in edoc and edown.
 
+Here is a screenshoot showing the version number after building with
+`rebar edoc`.
+[![Sample documentation](https://github.com/erlanger/rebar_edown/raw/master/btune-doc.png)](https://github.com/erlanger/btune/)
+
 ## Behind the scenes ##
 
 rebar_edown wants to be unobtrusive, reducing the number of unnecessary
