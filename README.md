@@ -9,6 +9,15 @@ Code for scripts is based on code from uwiger/edown.
 ## How to use ##
 1. Copy the scripts in priv/\*.script into your priv directory
 2. Copy priv/rebar.config.script to the main directory of you app.
+If you have `svn` installed you can do the following from the shell
+to copy the files into your priv directory:
+
+```sh
+cd myapp
+svn checkout http://github.com/erlanger/rebar_edown/trunk/priv
+cp priv/rebar.config.script   #Note, this will OVERWRITE the file
+```
+
 3. use `{@vsn}` in your documentation to substitute  VCS version
 
 Run:
