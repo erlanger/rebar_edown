@@ -5,6 +5,7 @@ Notice erlang.mk in the root dir 😁  :)
 
 #### Note ####
 Code for scripts is based on code from uwiger/edown.
+Please thank uwiger for his excellent work.
 
 ## How to use ##
 1. Copy the scripts in priv/\*.script into your priv directory
