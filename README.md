@@ -1,9 +1,9 @@
-= rebar plugin for edown =
+# rebar plugin for edown #
 
-=== A smile ===
+### A smile ###
 Notice erlang.mk in the root dir :)
 
-== What you get ==
+## What you get ##
 
 1. A `vsn` macro for the documentation (with the versioning information from
    git or any other VCS). You can use {@vsn} in your `overview.edoc` -- for
@@ -18,12 +18,12 @@ Notice erlang.mk in the root dir :)
    rebar_edown to your dependencies, they are downloaded automatically
    _only_ if you are building the docs with `rebar edown` or `rebar edoc`.
 
-==== Why would you want both edown and edoc? ====
+#### Why would you want both edown and edoc? ####
    The edown docs are nice on github, but the erlang docs are great for local
    browsing. Both of them can be built in the same doc directory. Now I just
    run `rebar get-deps co edoc edown` and get the best of both worlds.
 
-== How to use ==
+## How to use ##
 1. Copy the scripts in priv/\*.script into your priv directory
 2. Copy priv/rebar.config.script to the main directory of you app.
 
@@ -34,7 +34,7 @@ rebar get-deps co edown edoc
 
 and you'll get all the documentation built both in edoc and edown.
 
-== Behind the scenes ==
+## Behind the scenes ##
 
 rebar_edown wants to be unobtrusive, reducing the number of unnecessary
 depenencies for your app. People don't have to get edown or rebar_edown
