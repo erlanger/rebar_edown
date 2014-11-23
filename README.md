@@ -3,6 +3,9 @@
 ### A smile ###
 Notice erlang.mk in the root dir 😁  :)
 
+#### Note ####
+Code for scripts is based on code from uwiger/edown.
+
 ## How to use ##
 1. Copy the scripts in priv/\*.script into your priv directory
 2. Copy priv/rebar.config.script to the main directory of you app.
