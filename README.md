@@ -15,7 +15,7 @@ to copy the files into your priv directory:
 ```sh
 cd myapp
 svn checkout http://github.com/erlanger/rebar_edown/trunk/priv
-cp priv/rebar.config.script   #Note, this will OVERWRITE the file
+cp priv/rebar.config.script .  #Note, this will OVERWRITE the file
 ```
 
 3. use `{@vsn}` in your documentation to substitute  VCS version
