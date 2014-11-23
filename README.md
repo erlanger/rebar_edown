@@ -26,6 +26,7 @@ Notice erlang.mk in the root dir :)
 ## How to use ##
 1. Copy the scripts in priv/\*.script into your priv directory
 2. Copy priv/rebar.config.script to the main directory of you app.
+3. use `{@vsn}` in your documentation to substitute  VCS version
 
 Run:
 ```sh
