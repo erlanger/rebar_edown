@@ -1,0 +1,5 @@
+This scripts are from uwiger/edown with some modifications to automatically
+add a dependency to rebar_edown if the user is running rebar edoc or rebar
+edown.
+
+Please thank uwiger for his excellent work.
