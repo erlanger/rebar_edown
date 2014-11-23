@@ -1,0 +1,11 @@
+{application, rebar_edown, [
+	{description, ""},
+	{vsn, git},
+	{id, "git"},
+	{modules, [rebar_edown]},
+	{registered, []},
+	{applications, [
+		kernel,
+		stdlib
+	]}
+]}.
