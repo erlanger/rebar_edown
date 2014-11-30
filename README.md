@@ -1,6 +1,6 @@
 # rebar plugin for edown #
 
-### A smile ###
+### A smile :grinning: ###
 Notice erlang.mk in the root dir 😁  :)
 
 #### Note ####
